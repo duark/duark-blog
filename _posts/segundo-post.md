@@ -1,6 +1,6 @@
 ---
 status: 'published'
-title: 'Segundo post, criando blog na Alura.js'
+title: 'Segundo post, criando blog'
 date: '2021-03-16'
 excerpt: 'Nessa aula 2, vamos aprender a como criar um mini blog com NextJS e deployá-lo na Vercel, junto com o CDFTV'
 ---

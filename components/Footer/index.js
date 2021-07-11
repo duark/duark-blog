@@ -32,7 +32,7 @@ const FooterWrapper = styled.footer`
       color: inherit;
     }
   }
-`; 
+`;
 
 function Footer(props) {
   const socialNetworks = [
@@ -58,28 +58,25 @@ function Footer(props) {
     <FooterWrapper>
       <ul>
         {socialNetworks
-        .filter((socialNetwork) => Boolean(props[socialNetwork.name]))
-        .map((socialNetwork) => (
-          <li key={socialNetwork.url}>
-            <a href={`${socialNetwork.url}/${props[socialNetwork.name]}`} target="_blank">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox={socialNetwork.svgViewBox}
-              >
-                <title>
-                  {socialNetwork.name}
-                </title>
-                <g dangerouslySetInnerHTML={{ __html: socialNetwork.svgPath }} />
-              </svg>
-            </a>
-          </li>
-        ))}
+          .filter((socialNetwork) => Boolean(props[socialNetwork.name]))
+          .map((socialNetwork) => (
+            <li key={socialNetwork.url}>
+              <a href={`${socialNetwork.url}/${props[socialNetwork.name]}`} target="_blank">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox={socialNetwork.svgViewBox}
+                >
+                  <title>
+                    {socialNetwork.name}
+                  </title>
+                  <g dangerouslySetInnerHTML={{ __html: socialNetwork.svgPath }} />
+                </svg>
+              </a>
+            </li>
+          ))}
       </ul>
       <p>
-        Orgulhosamente feito durante a série Alura.js
-      </p>
-      <p>
-        <a href="https://www.youtube.com/user/codigofontetv">Código Fonte</a>, <a href="https://alura.com.br">Alura</a> e <a href="https://youtube.com/c/DevSoutinho">DevSoutinho</a>
+        Tey
       </p>
     </FooterWrapper>
   );

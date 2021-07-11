@@ -28,9 +28,9 @@ export default function Home({ allPosts }) {
       </section>
 
       <Footer
-        facebook="kelysson.duarte"
+        //facebook="kelysson.duarte"
         twitter="kekemesmo"
-        linkedin="kekemesmo"
+        linkedin="duark"
         github="duark"
       />
     </div>
