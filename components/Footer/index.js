@@ -76,7 +76,7 @@ function Footer(props) {
           ))}
       </ul>
       <p>
-        Tey
+        Duark's Blog
       </p>
     </FooterWrapper>
   );

@@ -9,7 +9,7 @@ const theme = {
 
 const GlobalStyle = createGlobalStyle`
   :root {
-    --primary: #ff6a00;
+    --primary: #777;
   }
   * {
     font-family: sans-serif;
