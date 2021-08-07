@@ -2,7 +2,7 @@
 status: 'published'
 title: 'Primeiro post, tentativa de criação de blog com tema temporário'
 date: '2020-03-16'
-excerpt: 'Nessa aula, vamos aprender a como criar um mini blog com NextJS e deployá-lo na Vercel, junto com o CDFTV'
+excerpt: 'Aprendendo a como criar um mini blog com NextJS e deployá-lo na Vercel, junto com o CDFTV'
 ---
 
 Este é um blog criado baseado no video tutorial do @devsoutinho da Alura, esse tutorial pode ser visto em https://www.youtube.com/watch?v=Ij-B0Yiizyw
